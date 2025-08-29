@@ -439,12 +439,23 @@
 
 
       <!-- Right div-->
-      <div>
-        
+      <div class="w-full lg:w-[350px] bg-white shadow-lg rounded-xl p-4 min-h-[300px]">
+        <div class="flex justify-between items-center">
+          <p class="font-extrabold text-[24px] text-[#111111]">
+            <i class="fa-regular fa-clock mr-1"></i>
+            Call History
+          </p>
+          <button
+            id="clear-history"
+            class="rounded-full bg-[#00A63E] px-4 py-2 text-white font-semibold
+            hover:bg-green-800"
+          >
+            Clear
+          </button>
+        </div>
+        <div id="call-history" class="mt-4 space-y-2"></div>
       </div>
     </section>
 
-
-    
 </body>
 </html>
